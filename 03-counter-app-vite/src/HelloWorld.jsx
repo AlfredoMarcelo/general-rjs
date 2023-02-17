@@ -1,5 +1,16 @@
-function HelloWorld(){
-    return <h1>Hola Mundo externo</h1>
+import "./index.css"; 
+
+let getNombre =()=>{
+    let nombre = "Marcelo"
+    return nombre;
 }
 
-export default HelloWorld;
+export function FirstApp(){ 
+
+    return (
+        <>
+        <h1>{getNombre()}</h1>
+        <h3>Este es el subtitulo</h3> 
+        </>
+    )
+}
