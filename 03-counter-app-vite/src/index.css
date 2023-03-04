@@ -1,0 +1,23 @@
+h1{
+    color: tomato;
+}
+
+button{
+    width: 50px;
+    background-color: tomato;
+    border-color: bisque;
+    border-width: 5px;
+    color: rgb(63, 60, 55);
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+button:hover{
+    border-color: rgb(207, 194, 176);
+    background-color: rgb(194, 41, 14);
+    color: azure;
+}
