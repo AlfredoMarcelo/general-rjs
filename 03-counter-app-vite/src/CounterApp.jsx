@@ -34,4 +34,4 @@ export const CounterApp = ({value}) => {
     </>
   )
 }
-//PASE A LA SECCION 5 DE PRUEBAS
+
