@@ -1,10 +1,11 @@
 import React from "react";
+import "./index.css";
 import  ReactDOM  from "react-dom/client";
-import  HelloWorld  from "./HelloWorld";
+import  {CounterApp}  from "./CounterApp";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <HelloWorld/>
+        <CounterApp value={0}/>
     </React.StrictMode>
 );
