@@ -1,0 +1,21 @@
+.container{
+    width: 600px;
+}
+
+.title{
+    text-align: center;
+}
+
+
+.brands{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+
+.brand{
+    list-style-type: none;
+}
